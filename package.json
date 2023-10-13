@@ -1,16 +1,19 @@
 {
   "name": "practice_nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "file.js",
+  "version": "2.0.0",
+  "description": "nodejs入門のプログラム",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "private": "true",
   "devDependencies": {
     "@types/node": "^20.8.4",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "undici": "^5.26.3"
   }
 }
